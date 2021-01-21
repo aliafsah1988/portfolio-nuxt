@@ -6,6 +6,12 @@
     <a :href="SOCIAL_LINKS.GITHUB" target="_blank">
       <img src="@/assets/images/github.svg" />
     </a>
+    <a :href="SOCIAL_LINKS.MEDIUM" target="_blank">
+      <img src="@/assets/images/blog.svg" />
+    </a>
+    <a :href="SOCIAL_LINKS.FACEBOOK" target="_blank">
+      <img src="@/assets/images/facebook.svg" />
+    </a>
   </div>
 </template>
 

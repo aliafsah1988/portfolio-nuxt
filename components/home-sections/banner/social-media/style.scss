@@ -6,6 +6,7 @@
     margin: auto;
     a {
         margin: auto;
+        margin-right: 10px;
         @include fontSize(20);
         color: $darker !important;
         img {
