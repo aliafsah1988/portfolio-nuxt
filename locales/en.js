@@ -1,7 +1,7 @@
 export default {
   head: {
     home: {
-      title: "Ali Afsahnoudeh's portfolio website",
+      title: 'Ali Afsahnoudeh portfolio website',
     },
     project: {
       title: 'Created by Ali Afsahnoudeh',
@@ -35,7 +35,13 @@ export default {
   projects: {
     badgusan: {
       title: 'Bad Gusan Website',
-      content: 'Official website of Bad Gusan music band',
+      content: `Badgusan is our music band. I made our offical website with Vue.js, Vue-Router, Vuex and Bootstrap.
+      <br />
+      It's a multilingual website with responsive deisign for mobiles and tablest.
+      <br />
+      You can visit this website in:
+      <br />
+      http://badgusan.com`,
     },
     govesta: {
       title: 'govesta.co',

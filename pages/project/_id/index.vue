@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="title">{{ title }}</div>
-    <div class="content">{{ content }}</div>
+    <div class="content" v-html="content"></div>
     <projectImageViewer :images="images" />
   </div>
 </template>
