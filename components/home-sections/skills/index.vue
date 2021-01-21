@@ -23,6 +23,10 @@ import htmlImage from '@/assets/images/skills/html.png'
 import javascriptImage from '@/assets/images/skills/javascript.png'
 import vueImage from '@/assets/images/skills/vue.png'
 import nuxtImage from '@/assets/images/skills/nuxt.png'
+import reactImage from '@/assets/images/skills/react.png'
+import nodeImage from '@/assets/images/skills/node.png'
+import csharpImage from '@/assets/images/skills/csharp.png'
+import dotnetImage from '@/assets/images/skills/dotnet.png'
 
 import VueSlickCarousel from 'vue-slick-carousel'
 import SkillCard from '@/components/skill-card'
@@ -59,6 +63,26 @@ export default {
           title: 'CSS',
           image: cssImage,
           link: 'https://css-tricks.com/',
+        },
+        {
+          title: 'React.js',
+          image: reactImage,
+          link: 'https://reactjs.org/',
+        },
+        {
+          title: 'Node.js',
+          image: nodeImage,
+          link: 'https://nodejs.org/en/',
+        },
+        {
+          title: 'C#',
+          image: csharpImage,
+          link: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+        },
+        {
+          title: '.Net',
+          image: dotnetImage,
+          link: 'https://dotnet.microsoft.com/download/dotnet-framework',
         },
       ],
       settings: {
