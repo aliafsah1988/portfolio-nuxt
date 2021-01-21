@@ -58,6 +58,11 @@ export default {
   build: {
     // webpack vue-i18n.bundle.js
     vendor: ['vue-i18n'],
+    extend(config, ctx) {
+      config.node = {
+        fs: 'empty',
+      }
+    },
   },
   router: {
     // customize nuxt.js router (vue-router).

@@ -1,37 +1,45 @@
-import shastImage from '@/assets/images/shast/4.png'
-import shastImages from './shast'
-
+// TODO find a way to read all files in image directory and get rid of this file!
 export default [
   {
-    id: 'shast',
-    title: 'Shast',
-    subTitle: 'PWA for Melli Bank',
-    image: shastImage,
-    images: shastImages,
+    id: 'badgusan',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
   {
-    id: 2,
-    title: 'Title',
-    subTitle: 'sub',
+    id: 'govesta',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
   {
-    id: 3,
-    title: 'Title',
-    subTitle: 'sub',
+    id: 'govesta_dashboard',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
   {
-    id: 4,
-    title: 'Title',
-    subTitle: 'sub',
+    id: 'shooka_client',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
   {
-    id: 5,
-    title: 'Title',
-    subTitle: 'sub',
+    id: 'shooka_admin',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
   {
-    id: 6,
-    title: 'Title',
-    subTitle: 'sub',
+    id: 'reconcile_desktop',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
+  },
+  {
+    id: 'portfolio',
+    title: 'Bad Gusan website',
+    image: require('../../assets/images/badgusan/3.png'),
+    imageCount: 16,
   },
 ]

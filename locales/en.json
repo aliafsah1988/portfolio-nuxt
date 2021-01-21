@@ -1,10 +1,10 @@
 {
   "head": {
     "home" : {
-      "title" : "Arezoo Goshtasbi's portfolio website"
+      "title" : "Ali Afsahnoudeh's portfolio website"
     },
     "project" : {
-      "title" : "Created by Arezou Goshtasbi"
+      "title" : "Created by Ali Afsahnoudeh"
     }
   },
   "header" : {
@@ -18,8 +18,8 @@
   },
   "home" : {
     "banner" : {
-      "title" : "Arezoo Goshtasbi",
-      "description": "Front-end Engineer"
+      "title" : "Ali Afsahnoudeh",
+      "description": "Software Engineer"
     },
     "about": {
       "title" : "About Me",
@@ -33,9 +33,33 @@
     }
   },
   "projects" : {
-    "shast" : {
-      "title" : "Shast Application",
-      "content": "A PWA for Melli Bank of Iran."
+    "badgusan" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
+    },
+    "govesta" : {
+      "title" : "govesta.co",
+      "content": "A real estate website for finding a house in europe"
+    },
+    "govesta_dashboard" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
+    },
+    "shooka_client" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
+    },
+    "shooka_admin" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
+    },
+    "reconcile_desktop" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
+    },
+    "portfolio" : {
+      "title" : "Bad Gusan Website",
+      "content": "Official website of Bad Gusan music band"
     }
   },
   "work-experience" : {
@@ -44,8 +68,9 @@
   "footer" : {
     "language" : {
       "en": "English",
-      "fa": "Persian"
+      "fa": "Persian",
+      "de": "German"
     },
-    "copyright": "© Arezoo Goshtasbi"
+    "copyright": "© Ali Afsahnoudeh"
   }
 }

@@ -23,7 +23,7 @@
         class="carousel-module__item"
         @click="show(index)"
       >
-        <img :src="src" />
+        <img :src="require('../../assets/images/badgusan/1.png')" />
       </div>
     </CarouselModule>
   </div>

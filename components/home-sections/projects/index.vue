@@ -9,11 +9,7 @@
           class="carousel-module__item"
           :to="`/project/${item.id}`"
         >
-          <ProjectSummary
-            :title="item.title"
-            :sub-title="item.subTitle"
-            :image="item.image"
-          />
+          <ProjectSummary :title="item.title" :image="item.image" />
         </nuxt-link>
       </CarouselModule>
     </div>
