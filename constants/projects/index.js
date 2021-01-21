@@ -2,43 +2,36 @@
 export default [
   {
     id: 'badgusan',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
   {
     id: 'govesta',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
   {
     id: 'govesta_dashboard',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
   {
     id: 'shooka_client',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
   {
     id: 'shooka_admin',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
   {
     id: 'reconcile_desktop',
-    title: 'Bad Gusan website',
-    image: require('../../assets/images/badgusan/3.png'),
+    image: require('../../assets/images/reconcile_desktop/1.png'),
     imageCount: 16,
   },
   {
     id: 'portfolio',
-    title: 'Bad Gusan website',
     image: require('../../assets/images/badgusan/3.png'),
     imageCount: 16,
   },
