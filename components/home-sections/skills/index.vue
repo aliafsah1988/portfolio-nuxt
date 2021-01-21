@@ -27,6 +27,8 @@ import reactImage from '@/assets/images/skills/react.png'
 import nodeImage from '@/assets/images/skills/node.png'
 import csharpImage from '@/assets/images/skills/csharp.png'
 import dotnetImage from '@/assets/images/skills/dotnet.png'
+import nextImage from '@/assets/images/skills/next.png'
+import tsImage from '@/assets/images/skills/ts.png'
 
 import VueSlickCarousel from 'vue-slick-carousel'
 import SkillCard from '@/components/skill-card'
@@ -55,6 +57,11 @@ export default {
           link: 'https://www.javascript.com/',
         },
         {
+          title: 'TypeScript',
+          image: tsImage,
+          link: 'https://www.typescriptlang.org/',
+        },
+        {
           title: 'HTML',
           image: htmlImage,
           link: 'https://html.com/',
@@ -68,6 +75,11 @@ export default {
           title: 'React.js',
           image: reactImage,
           link: 'https://reactjs.org/',
+        },
+        {
+          title: 'Next.js',
+          image: nextImage,
+          link: 'https://nextjs.org/',
         },
         {
           title: 'Node.js',
