@@ -12,8 +12,8 @@ export default [
   },
   {
     id: 'govesta_dashboard',
-    image: require('../../assets/images/badgusan/3.png'),
-    imageCount: 16,
+    image: require('../../assets/images/govesta_dashboard/2.png'),
+    imageCount: 6,
   },
   {
     id: 'shooka_client',
