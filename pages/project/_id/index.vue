@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
-    <div class="title">{{ title }}</div>
-    <div class="content" v-html="content"></div>
+  <div class="container project-page">
+    <div class="project-page__title">{{ title }}</div>
+    <div class="project-page__content" v-html="content"></div>
     <projectImageViewer :images="images" />
   </div>
 </template>
@@ -46,3 +46,7 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+@import './style.scss';
+</style>
