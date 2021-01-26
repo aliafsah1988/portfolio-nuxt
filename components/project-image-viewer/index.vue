@@ -23,7 +23,7 @@
         class="carousel-module__item"
         @click="show(index)"
       >
-        <img :src="src" />
+        <div class="image" :style="{ backgroundImage: `url(${src})` }" />
       </div>
     </CarouselModule>
   </div>
