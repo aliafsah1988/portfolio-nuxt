@@ -7,8 +7,8 @@ export default [
   },
   {
     id: 'govesta',
-    image: require('../../assets/images/badgusan/3.png'),
-    imageCount: 16,
+    image: require('../../assets/images/govesta/1.png'),
+    imageCount: 6,
   },
   {
     id: 'govesta_dashboard',
@@ -17,22 +17,22 @@ export default [
   },
   {
     id: 'shooka_client',
-    image: require('../../assets/images/badgusan/3.png'),
-    imageCount: 16,
+    image: require('../../assets/images/shooka_client/12.png'),
+    imageCount: 12,
   },
   {
     id: 'shooka_admin',
-    image: require('../../assets/images/badgusan/3.png'),
-    imageCount: 16,
+    image: require('../../assets/images/shooka_admin/2.png'),
+    imageCount: 9,
   },
   {
     id: 'reconcile_desktop',
     image: require('../../assets/images/reconcile_desktop/1.png'),
-    imageCount: 16,
+    imageCount: 5,
   },
   {
     id: 'portfolio',
-    image: require('../../assets/images/badgusan/3.png'),
-    imageCount: 16,
+    image: require('../../assets/images/portfolio/1.png'),
+    imageCount: 1,
   },
 ]
