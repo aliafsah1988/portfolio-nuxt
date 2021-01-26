@@ -17,7 +17,7 @@ export default [
   },
   {
     id: 'shooka_client',
-    image: require('../../assets/images/shooka_client/12.png'),
+    image: require('../../assets/images/shooka_client/3.png'),
     imageCount: 12,
   },
   {
