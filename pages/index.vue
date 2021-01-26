@@ -3,6 +3,7 @@
     <Banner />
     <About />
     <Skills />
+    <Fileds />
     <Projects />
   </div>
 </template>
@@ -12,6 +13,7 @@ import Banner from '@/components/home-sections/banner'
 import About from '@/components/home-sections/about'
 import Projects from '@/components/home-sections/projects'
 import Skills from '@/components/home-sections/skills'
+import Fileds from '@/components/home-sections/work-experiences'
 
 export default {
   components: {
@@ -19,6 +21,7 @@ export default {
     About,
     Projects,
     Skills,
+    Fileds,
   },
   asyncData({ app, params }) {
     return {
