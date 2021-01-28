@@ -2,8 +2,8 @@
   <div id="fields">
     <div class="container">
       <div class="header">
-        <h3>What I Did So Far</h3>
-        <p>As a software engineer I was more active in these areas:</p>
+        <h3>{{ $t('fields.title') }}</h3>
+        <p>{{ $t('fields.intro') }}</p>
       </div>
       <div class="experience">
         <div class="experience-item">

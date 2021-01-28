@@ -23,7 +23,17 @@ export default {
     },
     about: {
       title: 'About Me',
-      description: "I'm an experienced full stack web engineer.",
+      description:
+        `I'm an experienced full stack web engineer. \n` +
+        'I started my career as a freelance developer when I was in college. ' +
+        'We were a small team and worked on many small to medium projects. ' +
+        'First I was working on desktop apps and then I learned about back-end and front-end technologies. \n' +
+        'Then I founded two startups with my colleagues, we had lots of good and bad moments ' +
+        'but overally it was a very great experience. ' +
+        'On that time I learned more about business, marketing and how to build a team and more importantly try to keep it \n' +
+        'After that I joined couple of companies as an employee in role of back-end and front-end engineer.' +
+        'I had a chance to be a part of great teams of smart people. ' +
+        'I learned a lot of things from them and more importantly I learned how to be a good team mate and still trying to be a better one. \n',
     },
     skills: {
       title: 'Skills',
@@ -113,6 +123,8 @@ This result can be filterd or searched throught. And users can print it or expor
     },
   },
   fields: {
+    title: 'What I Did So Far',
+    intro: 'As a software engineer I was more active in these areas: ',
     'front-end': {
       title: `Front End Engineer`,
       description: `Developed couple of medium to large projects from scratch or was a part of front-end team.`,
