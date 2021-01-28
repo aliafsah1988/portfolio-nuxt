@@ -6,29 +6,29 @@
         <p>As a software engineer I was more active in these areas:</p>
       </div>
       <div class="experience">
-        <div class="test">
-          <h5>front-end</h5>
-          <p>jfghkdjgbkdfjgh</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.front-end.title') }}</h5>
+          <p>{{ $t('fields.front-end.description') }}</p>
         </div>
-        <div class="test">
-          <h5>back-end</h5>
-          <p>zmvbz,jfvjbh</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.back-end.title') }}</h5>
+          <p>{{ $t('fields.front-end.description') }}</p>
         </div>
-        <div class="test">
-          <h5>software</h5>
-          <p>lzjfvnl;dfhfnb</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.software-architect.title') }}</h5>
+          <p>{{ $t('fields.software-architect.description') }}</p>
         </div>
-        <div class="test">
-          <h5>engineer</h5>
-          <p>dfkjghdlfjkgh;dkfgh</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.RDBMS.title') }}</h5>
+          <p>{{ $t('fields.RDBMS.description') }}</p>
         </div>
-        <div class="test">
-          <h5>ali</h5>
-          <p>SDkhglkh</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.start-up-expert.title') }}</h5>
+          <p>{{ $t('fields.start-up-expert.description') }}</p>
         </div>
-        <div class="test">
-          <h5>arezoo</h5>
-          <p>fjdhlkgbldkfgh</p>
+        <div class="experience-item">
+          <h5>{{ $t('fields.microsoft.title') }}</h5>
+          <p>{{ $t('fields.microsoft.description') }}</p>
         </div>
       </div>
     </div>

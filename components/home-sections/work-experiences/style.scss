@@ -1,10 +1,10 @@
 @import "~assets/sass/required.scss";
 
 #fields {
-    background-color: #f5f5f5;
+    margin-top: 40px;
     .container {
         .header {
-            text-align: center;
+            text-align: left;
         }
         .experience {
             display: grid;
@@ -13,9 +13,9 @@
             row-gap: 30px;
             text-align: center;
             justify-self: center;
-            margin-top: 5%;
+            margin-top: 2%;
             width: 100%;
-            .test {
+            .experience-item {
                 background-color: $white;
             }
         }

@@ -112,7 +112,32 @@ This result can be filterd or searched throught. And users can print it or expor
       content: 'Official website of Bad Gusan music band',
     },
   },
-  'work-experience': {},
+  fields: {
+    'front-end': {
+      title: `Front End Engineer`,
+      description: `Developed couple of medium to large projects from scratch or was a part of front-end team.`,
+    },
+    'back-end': {
+      title: `Back End Engineer`,
+      description: `Developed couple of servers with Node.js, ASP.NET MVC and ASP.NET Core.`,
+    },
+    'software-architect': {
+      title: `Software Architect`,
+      description: `Was the architect of some server, web client and mobile client with different tech stacks.`,
+    },
+    RDBMS: {
+      title: `RDBMS and No Sql Desinger`,
+      description: `Designed and built lots of DataBases with MS SQL Server, My SQL, MongoDB and etc.`,
+    },
+    'start-up-expert': {
+      title: `Start Up Expert`,
+      description: `Created some start ups and got familiar with start up enviroments.`,
+    },
+    microsoft: {
+      title: `Microsoft Stack Developer`,
+      description: `C#, VB.NET, Windows Forms and WPF expret.`,
+    },
+  },
   footer: {
     language: {
       en: 'English',
