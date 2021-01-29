@@ -6,37 +6,42 @@
         <p>{{ $t('fields.intro') }}</p>
       </div>
       <div class="experience">
-        <div class="experience-item">
-          <h5>{{ $t('fields.front-end.title') }}</h5>
-          <p>{{ $t('fields.front-end.description') }}</p>
-        </div>
-        <div class="experience-item">
-          <h5>{{ $t('fields.back-end.title') }}</h5>
-          <p>{{ $t('fields.front-end.description') }}</p>
-        </div>
-        <div class="experience-item">
-          <h5>{{ $t('fields.software-architect.title') }}</h5>
-          <p>{{ $t('fields.software-architect.description') }}</p>
-        </div>
-        <div class="experience-item">
-          <h5>{{ $t('fields.RDBMS.title') }}</h5>
-          <p>{{ $t('fields.RDBMS.description') }}</p>
-        </div>
-        <div class="experience-item">
-          <h5>{{ $t('fields.start-up-expert.title') }}</h5>
-          <p>{{ $t('fields.start-up-expert.description') }}</p>
-        </div>
-        <div class="experience-item">
-          <h5>{{ $t('fields.microsoft.title') }}</h5>
-          <p>{{ $t('fields.microsoft.description') }}</p>
-        </div>
+        <FieldsItem
+          :title="$t('fields.front-end.title')"
+          :description="$t('fields.front-end.description')"
+        />
+        <FieldsItem
+          :title="$t('fields.back-end.title')"
+          :description="$t('fields.back-end.description')"
+        />
+        <FieldsItem
+          :title="$t('fields.software-architect.title')"
+          :description="$t('fields.software-architect.description')"
+        />
+        <FieldsItem
+          :title="$t('fields.RDBMS.title')"
+          :description="$t('fields.RDBMS.description')"
+        />
+        <FieldsItem
+          :title="$t('fields.start-up-expert.title')"
+          :description="$t('fields.start-up-expert.description')"
+        />
+        <FieldsItem
+          :title="$t('fields.microsoft.title')"
+          :description="$t('fields.microsoft.description')"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import FieldsItem from '../../field-item'
+export default {
+  components: {
+    FieldsItem,
+  },
+}
 </script>
 
 <style lang="sass">
