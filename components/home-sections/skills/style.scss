@@ -1,10 +1,12 @@
-.skills {
-    margin-bottom: 3%;
-    .slick-slide {
-        div {
-            display: flex;
+#skills {
+    .container {
+        margin-top: 69px;
+        .slick-slide {
             div {
-                margin: auto;
+                display: flex;
+                div {
+                    margin: auto;
+                }
             }
         }
     }
