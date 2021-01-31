@@ -15,6 +15,9 @@
                 $t('footer.copyright') + ' ' + new Date().getFullYear()
               }}</span>
             </span>
+            <span class="footer__email">
+              <span>{{ $t('footer.email') }}</span>
+            </span>
             <div class="footer__socials">
               <a :href="SOCIAL_LINKS.LINKEDIN" target="_blank">
                 <i class="icon-linkedin"></i>

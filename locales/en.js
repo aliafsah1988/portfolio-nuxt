@@ -157,5 +157,6 @@ This result can be filterd or searched throught. And users can print it or expor
       de: 'German',
     },
     copyright: '© Ali Afsahnoudeh',
+    email: 'ali.afsah1988@gmail.com',
   },
 }
