@@ -11,7 +11,7 @@
           <div class="image">
             <img
               class="img-thumbnail rounded-image"
-              src="@/assets/images/logo.png"
+              src="@/assets/images/logo.jpg"
               alt=""
             />
           </div>

@@ -39,7 +39,7 @@ export default {
       : 0
 
     for (let i = 1; i <= imagesLength; i++)
-      this.images.push(require(`../../../assets/images/${this.id}/${i}.png`))
+      this.images.push(require(`../../../assets/images/${this.id}/${i}.jpg`))
   },
   head() {
     return { title: this.titleHead, htmlAttrs: this.htmlAttrs }
