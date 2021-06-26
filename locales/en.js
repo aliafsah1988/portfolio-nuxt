@@ -118,8 +118,8 @@ Users can open two excel files in it (with drag & drop or browsing from hard dri
 This result can be filterd or searched throught. And users can print it or export it to Excel file.`,
     },
     portfolio: {
-      title: 'Bad Gusan Website',
-      content: 'Official website of Bad Gusan music band',
+      title: 'This website',
+      content: 'This portfolio website is made by Nuxt.js.',
     },
   },
   fields: {
