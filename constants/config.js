@@ -1,3 +1,3 @@
 export default {
-  langs: ['en', 'fa'],
+  langs: ['en'],
 }
