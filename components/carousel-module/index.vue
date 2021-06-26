@@ -51,49 +51,41 @@ export default {
   },
   computed: {
     prevActive() {
-      const size = this.getItemSize()
-      return this.list.length > size && this.current > 0 && size > 2
+      return this.current > 0
     },
     nextActive() {
-      const size = this.getItemSize()
-      return (
-        this.list.length > size &&
-        this.list.length - size > this.current &&
-        size > 2
-      )
+      return this.list.length > this.current + this.getTellorance()
     },
   },
   mounted() {
     this.loaded = true
   },
   methods: {
-    getItemSize() {
-      let size = 5
+    getTellorance() {
       const innerW = window.innerWidth
-      if (innerW < 1200 && innerW > 992) {
-        size = 4
-      } else if (innerW < 992 && innerW > 768) {
-        size = 3
-      } else if (innerW < 768) {
-        size = 2
-      }
-      return size
+      if (innerW > 1200) return 4
+      if (innerW < 1200 && innerW > 992) return 4
+      if (innerW < 992 && innerW > 768) return 4
+      return 2
+    },
+    getItemWith() {
+      return document.getElementsByClassName('carousel-module__item')[0]
+        .clientWidth
     },
     goPrexOrNext(isPrev = true) {
-      const size = this.getItemSize()
-      const itemW = 100 / size
+      const itemW = this.getItemWith()
       if (this.$refs.carousel) {
         if (isPrev) {
           const current = this.current - 1
           this.$refs.carousel.style = `transform: translateX(-${
             current * itemW
-          }%)`
+          }px)`
           this.current = current
         } else {
           const current = this.current + 1
           this.$refs.carousel.style = `transform: translateX(-${
             current * itemW
-          }%)`
+          }px)`
           this.current = current
         }
       }
